@@ -32,10 +32,7 @@ class Vue extends Widget {
     /** @var null|string[] $delimiters */
     public $delimiters;
 
-    /**
-     *
-     * @var array|string
-     */
+    /** @var array|string $data */
     public $data;
     
     /** @var string|null $template */
@@ -47,27 +44,16 @@ class Vue extends Widget {
     /** @var array|null */
     public $model;
     
-    /**
-     * @var array|string
-     */
+    /** @var array|string $methods */
     public $methods;
     
-    /**
-     *
-     * @var array|string
-     */ 
+    /** @var array|string $watch */
     public $watch;
     
-    /**
-     *
-     * @var array|string
-     */
+    /** @var array|string $computed */
     public $computed;
 
-    /**
-     *
-     * @var \yii\web\JsExpression|string
-     */
+    /** @var \yii\web\JsExpression|string */
     public $beforeCreate;
 
     /**
