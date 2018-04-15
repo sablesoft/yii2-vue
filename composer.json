@@ -1,0 +1,27 @@
+{
+    "name": "sablerom/yii2-vue",
+    "description": "Vue.js manager component for yii2 web application",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "vue", "yii2-vue", "yii2", "vuejs", "axios", "lodash", "sablerom"," vue.js"],
+    "license": "LGPL-3.0+",
+    "authors": [
+        {
+            "name": "Roman Sable",
+            "email": "sable.lair@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/vue": "2.5.16",
+        "bower-asset/axios" : "0.18.0",
+        "bower-asset/lodash": "3.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "sablerom\\vue\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "sablerom\\vue\\Bootstrap"
+    }
+}
