@@ -20,8 +20,5 @@
         "psr-4": {
             "sablerom\\vue\\": ""
         }
-    },
-    "extra": {
-        "bootstrap": "sablerom\\vue\\Bootstrap"
     }
 }
