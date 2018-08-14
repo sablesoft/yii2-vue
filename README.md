@@ -67,7 +67,7 @@ Just use **vueManager**::**register** method in your controller before rendering
         // use jsExpression wrapper for short js
         // for long js use sourcePath ( see below ):
         'created' =>
-            new jsExpression( "function() { console.log('Vue created!')}" ),
+            new JsExpression( "function() { console.log('Vue created!')}" ),
 
         // also you can use string value as path to your js:
         'computed' => '@yourAlias/path/to/computed.js',
