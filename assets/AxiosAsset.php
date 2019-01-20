@@ -1,9 +1,9 @@
 <?php
-namespace sablerom\vue\assets;
+namespace sablesoft\vue\assets;
 
 /**
  * Class AxiosAsset
- * @package sablerom\vue\assets
+ * @package sablesoft\vue\assets
  */
 class AxiosAsset extends \yii\web\AssetBundle {
 

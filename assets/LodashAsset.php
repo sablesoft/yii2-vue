@@ -1,9 +1,9 @@
 <?php
-namespace sablerom\vue\assets;
+namespace sablesoft\vue\assets;
 
 /**
  * Class LodashAsset
- * @package sablerom\vue\assets
+ * @package sablesoft\vue\assets
  */
 class LodashAsset extends \yii\web\AssetBundle {
 

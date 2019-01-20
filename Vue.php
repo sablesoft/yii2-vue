@@ -1,19 +1,19 @@
 <?php
-namespace sablerom\vue;
+namespace sablesoft\vue;
 
 use Yii;
 use yii\web\JsExpression;
 use yii\web\View;
 use yii\base\Widget;
 use yii\helpers\Json;
-use sablerom\vue\assets\VueAsset;
-use sablerom\vue\assets\AxiosAsset;
-use sablerom\vue\assets\LodashAsset;
+use sablesoft\vue\assets\VueAsset;
+use sablesoft\vue\assets\AxiosAsset;
+use sablesoft\vue\assets\LodashAsset;
 use yii\base\InvalidConfigException;
 
 /**
  * Class Vue
- * @package sablerom\vue
+ * @package sablesoft\vue
  *
  */
 class Vue extends Widget {

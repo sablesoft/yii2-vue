@@ -11,13 +11,13 @@ The preferred way to install the **vueManager** is through [composer](http://get
 Either run
 
 ```
-composer require sablerom/yii2-vue
+composer require sablesoft/yii2-vue
 ```
 
 or add
 
 ```json
-"sablerom/yii2-vue": "*",
+"sablesoft/yii2-vue": "*",
 ```
 
 to the require section of your composer.json.
@@ -29,7 +29,7 @@ Then add **vueManager** in your app config:
     'components' => [
         ...
         'vueManager'   => [
-            'class'      => 'sablerom\vue\VueManager',
+            'class'      => 'sablesoft\vue\VueManager',
             'delimiters' => [ '[[', ']]' ],  // specify custom for smarty
             'isDev'      => true              // false is default
         ],

@@ -6,15 +6,15 @@
  * Time: 18:39
  */
 
-namespace sablerom\vue;
+namespace sablesoft\vue;
 
 use yii\base\BaseObject;
-use sablerom\vue\assets\VueAsset;
+use sablesoft\vue\assets\VueAsset;
 
 /**
  * Class VueManager
  *
- * @package sablerom\vue
+ * @package sablesoft\vue
  * @property \yii\web\View $view
  *
  */

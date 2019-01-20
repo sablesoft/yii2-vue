@@ -1,12 +1,12 @@
 {
-    "name": "sablerom/yii2-vue",
+    "name": "sablesoft/yii2-vue",
     "description": "Vue.js manager component for yii2 web application",
     "type": "yii2-extension",
-    "keywords": ["yii2", "vue", "yii2-vue", "yii2", "vuejs", "axios", "lodash", "sablerom"," vue.js"],
+    "keywords": ["yii2", "vue", "yii2-vue", "yii2", "vuejs", "axios", "lodash", "sablesoft"," vue.js"],
     "license": "LGPL-3.0+",
     "authors": [
         {
-            "name": "Roman Sable",
+            "name": "SableSoft (Raman Sobal)",
             "email": "sable.lair@gmail.com"
         }
     ],
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "sablerom\\vue\\": ""
+            "sablesoft\\vue\\": ""
         }
     }
 }

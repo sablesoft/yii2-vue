@@ -1,9 +1,9 @@
 <?php
-namespace sablerom\vue\assets;
+namespace sablesoft\vue\assets;
 
 /**
  * Class VueAsset
- * @package sablerom\vue\assets
+ * @package sablesoft\vue\assets
  */
 class VueAsset extends \yii\web\AssetBundle {
     public $sourcePath = '@bower/vue/dist';
